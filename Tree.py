@@ -4,9 +4,9 @@ class BinaryTree:
         self.left = None
         self.right = None
     def addLeftChild(self,data):
-        self.left = Tree(data)
+        self.left = BinaryTree(data)
     def addRightChild(self,data):
-        self.right = Tree(data)
+        self.right = BinaryTree(data)
     def getRight(self):
         return self.right
     def getLeft(self):
