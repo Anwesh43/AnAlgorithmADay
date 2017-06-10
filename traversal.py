@@ -14,6 +14,8 @@ def inorder(curr):
 
 inorder(root)
 
+#preorder traversal
+
 print 'preorder traversal'
 
 def preorder(curr):
@@ -25,6 +27,8 @@ def preorder(curr):
 preorder(root)
 
 print 'postorder traversal'
+
+#postorder traversal
 
 def postorder(curr):
     if not(curr == None):
